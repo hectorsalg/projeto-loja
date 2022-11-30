@@ -1,0 +1,16 @@
+.buttonContainer {
+    margin: .5em;
+}
+
+.source {
+    margin-right: 0;
+}
+
+.buttonContainer input {
+    border-radius: .3em;
+    padding: .3em .6em;
+}
+
+.buttonContainer input:focus {
+    outline: 0;
+}
