@@ -1,5 +1,12 @@
 .footer {
     background-color: #222;
     height: 250px;
-    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.466);
+
+    --mask:
+    radial-gradient(0.30em at 50% 0.38em,#000 99%,#0000 101%) calc(50% - 0.58em) 0/1.16em 100%,
+    radial-gradient(0.30em at 50% -0.09em,#0000 99%,#000 101%) 50% .29em/1.16em 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    position: relative;
+    top: -7px;
 }
