@@ -2,6 +2,8 @@
     background-color: #222;
     height: 250px;
 
+
+    /* CSS Generate: https://css-generators.com/wavy-shapes/ */
     --mask:
     radial-gradient(0.30em at 50% 0.38em,#000 99%,#0000 101%) calc(50% - 0.58em) 0/1.16em 100%,
     radial-gradient(0.30em at 50% -0.09em,#0000 99%,#000 101%) 50% .29em/1.16em 100% repeat-x;
